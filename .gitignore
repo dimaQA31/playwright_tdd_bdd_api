@@ -1,0 +1,8 @@
+.idea
+.cache
+/node_modules/
+/playwright-report/
+/test-results/
+/Ingenious Build - QA home challenge/
+package-lock.json
+yarn.lock

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "moduleResolution": "bundler",
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "playwright-report", "test-results"]
+}

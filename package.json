@@ -1,0 +1,32 @@
+{
+  "name": "playwright_with_ts_by_dmytro_basiuk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test_cucumber": "npx cucumber-js -p test_runner --tags  @demo",
+    "test:run": "npx playwright test",
+    "test:run-debug:one-test": "npx playwright test webAutomation.spec --debug",
+    "test:html-report": "npx playwright show-report",
+    "lint": "eslint .",
+    "prettier-check": "npx prettier . --check",
+    "prettier:write": "npx prettier --write ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.31.2",
+    "@types/chance": "^1.1.6",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "chance": "^1.1.11",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-no-floating-promise": "1.0.2",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "3.1.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  }
+}
